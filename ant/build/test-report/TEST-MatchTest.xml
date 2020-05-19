@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="hakerman-S451LN" name="MatchTest" skipped="0" tests="81" time="0.138" timestamp="2020-05-19T22:49:33">
+  <properties>
+    <property name="java.vendor" value="Private Build" />
+    <property name="lib.dir" value="lib" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="build.dir.meta-inf" value="ant/build/WEB-INF/classes/META-INF" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="ant.file.ThirdLab" value="/home/hakerman/Рабочий стол/pip3/build.xml" />
+    <property name="build.dir.doc" value="ant/build/doc" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes" />
+    <property name="src.dir.doc" value="src/main/java" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="web.content" value="web" />
+    <property name="ant.home" value="/snap/intellij-idea-ultimate/222/lib/ant" />
+    <property name="java.runtime.version" value="1.8.0_252-8u252-b09-1~18.04-b09" />
+    <property name="user.name" value="hakerman" />
+    <property name="src.res" value="src/main/resources/META-INF/" />
+    <property name="build.dir" value="ant/build" />
+    <property name="lib.primeSources" value="lib/primefaces-6.1-sources.jar" />
+    <property name="user.language" value="ru" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64" />
+    <property name="info.version" value="03" />
+    <property name="build.test.report" value="ant/build/test-report" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="ThirdLab" />
+    <property name="java.version" value="1.8.0_252" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="lib.junit" value="lib/junit-4.7.jar" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="build.dir.classes" value="ant/build/WEB-INF/classes" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="RU" />
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre" />
+    <property name="dist.dir" value="ant/dist" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/home/hakerman/Рабочий стол/pip3/build.xml" />
+    <property name="os.version" value="5.3.0-51-generic" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.252-b09" />
+    <property name="ant.library.dir" value="/snap/intellij-idea-ultimate/222/lib/ant/lib" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="user.home" value="/home/hakerman" />
+    <property name="info.md5" value="4497cbf497e7cc26020ec69ec4c0e9d6" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Private Build" />
+    <property name="build.web-xml" value="ant/build/WEB-INF/web.xml" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile /home/hakerman/Рабочий стол/pip3/build.xml report" />
+    <property name="java.class.path" value="/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-antlr.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-apache-bcel.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-apache-bsf.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-apache-log4j.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-apache-oro.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-apache-regexp.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-apache-resolver.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-apache-xalan2.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-commons-logging.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-commons-net.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-jai.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-javamail.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-jdepend.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-jmf.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-jsch.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-junit.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-junit4.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-junitlauncher.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-launcher.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-netrexx.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-swing.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-testutil.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant-xz.jar:/snap/intellij-idea-ultimate/222/lib/ant/lib/ant.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/lib/tools.jar:/snap/intellij-idea-ultimate/222/lib/idea_rt.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="project.name" value="lab" />
+    <property name="ant.file.type.ThirdLab" value="file" />
+    <property name="lib.prime" value="lib/primefaces-6.1.jar" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="src.test" value="src/test/java" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="info.sha1" value="11c4a9c0924da9ba14196a484fb7dd41fa67b8d06fc5d64df434012491e92ed31065f1720ae29824a515f1ce1f8739b9dfdb67fa43654fc37d39a167da309400" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="build.dir.lib" value="ant/build/WEB-INF/lib" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="lib.javax" value="lib/javax.faces-2.4.0.jar" />
+    <property name="user.dir" value="/home/hakerman/Рабочий стол/pip3" />
+    <property name="lib.hamcrest" value="lib/hamcrest-all-1.3.jar" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="basedir" value="/home/hakerman/Рабочий стол/pip3" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/snap/intellij-idea-ultimate/222/lib/ant/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="build.test" value="ant/build/test/classes" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="src/main" />
+    <property name="ant.project.invoked-targets" value="report" />
+  </properties>
+  <testcase classname="MatchTest" name="firstSectionNearCenterInTest" time="0.003" />
+  <testcase classname="MatchTest" name="firstSectionNearTopInTest" time="0.0" />
+  <testcase classname="MatchTest" name="ZeroPointTest" time="0.0" />
+  <testcase classname="MatchTest" name="firstSectionNearCenterOutTest" time="0.0" />
+  <testcase classname="MatchTest" name="firstSectionOnCenterBrinkTest" time="0.0" />
+  <testcase classname="MatchTest" name="firstSectionNearTopOutTest" time="0.001" />
+  <testcase classname="MatchTest" name="firstSectionOnRightBrinkTest" time="0.0" />
+  <testcase classname="MatchTest" name="firstSectionNearRightInTest" time="0.0" />
+  <testcase classname="MatchTest" name="firstSectionNearRightOutTest" time="0.0" />
+  <testcase classname="MatchTest" name="secondSectionInTest" time="0.0" />
+  <testcase classname="MatchTest" name="secondSectionOutTest" time="0.001" />
+  <testcase classname="MatchTest" name="secondSectionOnCenterBrinkTest" time="0.0" />
+  <testcase classname="MatchTest" name="secondSectionNearCenterInTest" time="0.0" />
+  <testcase classname="MatchTest" name="secondSectionNearCenterOutTest" time="0.0" />
+  <testcase classname="MatchTest" name="secondSectionOnTopRightBrinkTest" time="0.0" />
+  <testcase classname="MatchTest" name="firstSectionOnTopBrinkTest" time="0.001" />
+  <testcase classname="MatchTest" name="firstSectionOutTest" time="0.0" />
+  <testcase classname="MatchTest" name="firstSectionInTest" time="0.0" />
+  <testcase classname="MatchTest" name="fourthSectionNearRightOutTest" time="0.0" />
+  <testcase classname="MatchTest" name="goodCoordinatesValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="wrongCoordinatesValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="r15ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="lessR15ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="largerR15ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="r2ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="lessR2ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="largerR2ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="r1ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="lessR1ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="largerR1ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="r25ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="lessR25ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="largerR25ValidationTest" time="0.001" />
+  <testcase classname="MatchTest" name="r3ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="lessR3ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="largerR3ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="r35ValidationTest" time="0.001" />
+  <testcase classname="MatchTest" name="lessR35ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="largerR35ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="maxYValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="lessMaxYValidationTest" time="0.001" />
+  <testcase classname="MatchTest" name="largerMaxYValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="minYValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="lessMinYValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="largerMinYValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="xMinus2ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="lessXMinus2ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="largerXMinus2ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="xMinus1ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="lessXMinus1ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="largerXMinus1ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="xZeroValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="lessXZeroValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="largerXZeroValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="x1ValidationTest" time="0.001" />
+  <testcase classname="MatchTest" name="lessX1ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="largerX1ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="x2ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="lessX2ValidationTest" time="0.0" />
+  <testcase classname="MatchTest" name="largerX2ValidationTest" time="0.001" />
+  <testcase classname="MatchTest" name="secondSectionNearTopRightInTest" time="0.0" />
+  <testcase classname="MatchTest" name="secondSectionNearTopRightOutTest" time="0.0" />
+  <testcase classname="MatchTest" name="secondSectionOnTopLeftBrinkTest" time="0.0" />
+  <testcase classname="MatchTest" name="secondSectionNearTopLeftInTest" time="0.001" />
+  <testcase classname="MatchTest" name="secondSectionNearTopLeftOutTest" time="0.0" />
+  <testcase classname="MatchTest" name="secondSectionOnDownLeftBrinkTest" time="0.0" />
+  <testcase classname="MatchTest" name="secondSectionNearDownLeftInTest" time="0.0" />
+  <testcase classname="MatchTest" name="secondSectionNearDownLeftOutTest" time="0.0" />
+  <testcase classname="MatchTest" name="nearZeroPointTest" time="0.0" />
+  <testcase classname="MatchTest" name="near2ZeroPointTest" time="0.0" />
+  <testcase classname="MatchTest" name="thirdSectionOutTest" time="0.0" />
+  <testcase classname="MatchTest" name="fourthSectionInTest" time="0.0" />
+  <testcase classname="MatchTest" name="fourthSectionOutTest" time="0.0" />
+  <testcase classname="MatchTest" name="fourthSectionOnDownBrinkTest" time="0.0" />
+  <testcase classname="MatchTest" name="fourthSectionNearDownInTest" time="0.0" />
+  <testcase classname="MatchTest" name="fourthSectionNearDownOutTest" time="0.0" />
+  <testcase classname="MatchTest" name="fourthSectionOnCenterBrinkTest" time="0.0" />
+  <testcase classname="MatchTest" name="fourthSectionNearCenterInTest" time="0.0" />
+  <testcase classname="MatchTest" name="fourthSectionNearCenterOutTest" time="0.001" />
+  <testcase classname="MatchTest" name="fourthSectionOnRightBrinkTest" time="0.0" />
+  <testcase classname="MatchTest" name="fourthSectionNearRightInTest" time="0.0" />
+  <system-out><![CDATA[Running some tests
+Done running tests
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
