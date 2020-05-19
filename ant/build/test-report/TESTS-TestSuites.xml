@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="hakerman-S451LN" id="0" name="MatchTest" package="" skipped="0" tests="81" time="0.096" timestamp="2020-05-19T22:52:21">
+  <testsuite errors="0" failures="0" hostname="hakerman-S451LN" id="0" name="MatchTest" package="" skipped="0" tests="81" time="0.085" timestamp="2020-05-19T22:59:47">
       <properties>
           <property name="java.vendor" value="Private Build" />
 
@@ -182,99 +182,7 @@
 
       </properties>
 
-      <testcase classname="MatchTest" name="fourthSectionOnCenterBrinkTest" time="0.003" />
-
-      <testcase classname="MatchTest" name="fourthSectionNearCenterInTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="fourthSectionNearCenterOutTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="fourthSectionOnRightBrinkTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="fourthSectionNearRightInTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="fourthSectionNearRightOutTest" time="0.001" />
-
-      <testcase classname="MatchTest" name="goodCoordinatesValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="wrongCoordinatesValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="r15ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="lessR15ValidationTest" time="0.001" />
-
-      <testcase classname="MatchTest" name="largerR15ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="r2ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="lessR2ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="largerR2ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="r1ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="lessR1ValidationTest" time="0.001" />
-
-      <testcase classname="MatchTest" name="largerR1ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="r25ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="lessR25ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="largerR25ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="r3ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="lessR3ValidationTest" time="0.001" />
-
-      <testcase classname="MatchTest" name="largerR3ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="r35ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="lessR35ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="largerR35ValidationTest" time="0.001" />
-
-      <testcase classname="MatchTest" name="maxYValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="lessMaxYValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="largerMaxYValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="minYValidationTest" time="0.001" />
-
-      <testcase classname="MatchTest" name="lessMinYValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="largerMinYValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="xMinus2ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="lessXMinus2ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="largerXMinus2ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="xMinus1ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="lessXMinus1ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="largerXMinus1ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="xZeroValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="lessXZeroValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="largerXZeroValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="x1ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="lessX1ValidationTest" time="0.001" />
-
-      <testcase classname="MatchTest" name="largerX1ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="x2ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="lessX2ValidationTest" time="0.0" />
-
-      <testcase classname="MatchTest" name="largerX2ValidationTest" time="0.001" />
+      <testcase classname="MatchTest" name="firstSectionNearCenterInTest" time="0.003" />
 
       <testcase classname="MatchTest" name="firstSectionNearTopOutTest" time="0.0" />
 
@@ -282,7 +190,7 @@
 
       <testcase classname="MatchTest" name="firstSectionNearRightInTest" time="0.0" />
 
-      <testcase classname="MatchTest" name="firstSectionNearRightOutTest" time="0.001" />
+      <testcase classname="MatchTest" name="firstSectionNearRightOutTest" time="0.0" />
 
       <testcase classname="MatchTest" name="secondSectionInTest" time="0.0" />
 
@@ -300,17 +208,17 @@
 
       <testcase classname="MatchTest" name="secondSectionNearTopRightOutTest" time="0.0" />
 
-      <testcase classname="MatchTest" name="secondSectionOnTopLeftBrinkTest" time="0.001" />
+      <testcase classname="MatchTest" name="secondSectionOnTopLeftBrinkTest" time="0.0" />
 
       <testcase classname="MatchTest" name="secondSectionNearTopLeftInTest" time="0.0" />
 
-      <testcase classname="MatchTest" name="secondSectionNearTopLeftOutTest" time="0.0" />
+      <testcase classname="MatchTest" name="secondSectionNearTopLeftOutTest" time="0.001" />
 
       <testcase classname="MatchTest" name="secondSectionOnDownLeftBrinkTest" time="0.0" />
 
       <testcase classname="MatchTest" name="secondSectionNearDownLeftInTest" time="0.0" />
 
-      <testcase classname="MatchTest" name="secondSectionNearDownLeftOutTest" time="0.001" />
+      <testcase classname="MatchTest" name="secondSectionNearDownLeftOutTest" time="0.0" />
 
       <testcase classname="MatchTest" name="ZeroPointTest" time="0.0" />
 
@@ -320,13 +228,13 @@
 
       <testcase classname="MatchTest" name="thirdSectionOutTest" time="0.0" />
 
-      <testcase classname="MatchTest" name="fourthSectionInTest" time="0.001" />
+      <testcase classname="MatchTest" name="fourthSectionInTest" time="0.0" />
 
       <testcase classname="MatchTest" name="fourthSectionOutTest" time="0.0" />
 
-      <testcase classname="MatchTest" name="fourthSectionOnDownBrinkTest" time="0.0" />
+      <testcase classname="MatchTest" name="fourthSectionOnDownBrinkTest" time="0.001" />
 
-      <testcase classname="MatchTest" name="fourthSectionNearDownInTest" time="0.0" />
+      <testcase classname="MatchTest" name="fourthSectionNearDownOutTest" time="0.0" />
 
       <testcase classname="MatchTest" name="firstSectionNearCenterOutTest" time="0.0" />
 
@@ -338,11 +246,103 @@
 
       <testcase classname="MatchTest" name="firstSectionInTest" time="0.0" />
 
-      <testcase classname="MatchTest" name="firstSectionNearTopInTest" time="0.0" />
+      <testcase classname="MatchTest" name="fourthSectionOnCenterBrinkTest" time="0.0" />
 
-      <testcase classname="MatchTest" name="fourthSectionNearDownOutTest" time="0.0" />
+      <testcase classname="MatchTest" name="fourthSectionNearCenterInTest" time="0.0" />
 
-      <testcase classname="MatchTest" name="firstSectionNearCenterInTest" time="0.0" />
+      <testcase classname="MatchTest" name="fourthSectionNearCenterOutTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="fourthSectionOnRightBrinkTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="fourthSectionNearRightInTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="fourthSectionNearRightOutTest" time="0.001" />
+
+      <testcase classname="MatchTest" name="goodCoordinatesValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="wrongCoordinatesValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="r15ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessR15ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="largerR15ValidationTest" time="0.001" />
+
+      <testcase classname="MatchTest" name="r2ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessR2ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="largerR2ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="r1ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessR1ValidationTest" time="0.001" />
+
+      <testcase classname="MatchTest" name="largerR1ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="r25ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessR25ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="largerR25ValidationTest" time="0.001" />
+
+      <testcase classname="MatchTest" name="r3ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessR3ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="largerR3ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="r35ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessR35ValidationTest" time="0.001" />
+
+      <testcase classname="MatchTest" name="largerR35ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="maxYValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessMaxYValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="largerMaxYValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="minYValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessMinYValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="largerMinYValidationTest" time="0.001" />
+
+      <testcase classname="MatchTest" name="xMinus2ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessXMinus2ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="largerXMinus2ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="xMinus1ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessXMinus1ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="largerXMinus1ValidationTest" time="0.001" />
+
+      <testcase classname="MatchTest" name="xZeroValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessXZeroValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="largerXZeroValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="x1ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessX1ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="firstSectionNearTopInTest" time="0.001" />
+
+      <testcase classname="MatchTest" name="fourthSectionNearDownInTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="largerX1ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="x2ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="lessX2ValidationTest" time="0.0" />
+
+      <testcase classname="MatchTest" name="largerX2ValidationTest" time="0.0" />
 
       <system-out><![CDATA[Running some tests
 Done running tests
