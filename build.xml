@@ -127,11 +127,11 @@
     </target>
 
     <target name="report" depends="test">
-        <junitreport todir="./reports" >
-            <fileset dir="./reports">
+        <junitreport todir="${build.test.report}" >
+            <fileset dir="${build.test.report}">
                 <include name="TEST-*.xml"/>
             </fileset>
-            <report todir="${build.test.report}"/>
+            <report todir="${build.test.report}/html"/>
         </junitreport>
         <exec executable="git">
             <arg value="add"/>
