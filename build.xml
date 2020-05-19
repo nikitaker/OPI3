@@ -131,7 +131,7 @@
             <fileset dir="./reports">
                 <include name="TEST-*.xml"/>
             </fileset>
-            <report todir="${build.test.report}/html"/>
+            <report todir="${build.test.report}"/>
         </junitreport>
         <exec executable="git">
             <arg value="add"/>
